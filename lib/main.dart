@@ -16,11 +16,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [Text('Web_app Change check')],
-        )
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('AppBar'),
+          centerTitle: true,
+        ),
+        body: Text('Flutter Demo'),
       ),
     );
   }
