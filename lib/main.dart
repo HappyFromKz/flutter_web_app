@@ -16,8 +16,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Text('Web_app'),
+      home: const Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [Text('Web_app Change check')],
+        )
+      ),
     );
   }
 }
-
